@@ -301,3 +301,24 @@ header a {
     height: 120px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .thumbnail {
+    bottom: 10px;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 296px) {
+  header a {
+    color: #eee;
+    margin-right: 10px;
+  }
+  .carousel .list .item .buttons {
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 40px;
+  }
+  .carousel .list .item .buttons button {
+    font-size: 0.8em;
+  }
+}
