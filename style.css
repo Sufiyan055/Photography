@@ -296,4 +296,8 @@ header a {
   .carousel .list .item .content .title {
     font-size: 30px;
   }
+  .thumbnail .item {
+    width: 90px;
+    height: 120px;
+  }
 }
